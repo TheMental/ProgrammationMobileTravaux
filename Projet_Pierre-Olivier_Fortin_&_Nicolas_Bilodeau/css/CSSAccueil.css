@@ -1,0 +1,195 @@
+header
+{
+    background-color: #f77934;
+    margin: auto;
+    text-align: center;
+    width: 56%;
+    box-shadow: 5px 5px 5px #999;
+    margin-top: 20px;
+}
+
+body
+{
+	background-image: url(../image/background1.png);
+	font-family: "calibri";
+	color: white;
+    margin: auto;
+    background-size: auto;
+    background-attachment: fixed;
+}
+
+#front
+{
+    background-color: white;
+	padding:3%;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+    box-shadow: 5px 5px 5px #999;
+    color: #f77934;
+}
+
+p
+{
+    margin: 5% 2%;
+}
+
+header h1
+{
+    margin: 0px;
+    cursor: pointer;
+}
+
+#login
+{
+	background-color: #f77934;
+    display: block;
+    width: 100%;
+    border-top: solid;
+}
+
+label
+{
+    width: 150px;
+    display: inline-block;
+}
+
+input
+{
+    display: inline-block;
+}
+
+#menu
+{
+    padding: 0;
+    margin:0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu li
+{
+    margin-bottom:2px;
+    box-shadow: 3px 3px 3px #999;
+    border: solid;
+}
+
+#menu li li 
+{
+    max-height: 0;
+    overflow: hidden;
+    border-radius:0;
+    box-shadow: none;
+    border:none;
+    margin:0;
+}
+
+#menu ul 
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+#menu a
+{
+    display: block;
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 1.2em;
+    color: white;
+}
+
+#menu li:hover li 
+{
+    max-height: inherit;
+    border: solid;
+    border-top: none;
+}
+
+input[name="loginBtn"]
+{
+	border: solid;
+	border-color: white;
+	background-color: transparent;
+	color: white;
+	padding: 2px 10px;
+	font-size: 12px;
+	font-family: "calibri";
+	margin-top: 9px;
+}
+
+input[name="loginBtn"]:hover
+{
+	border: solid;
+	background-color: white;
+	border-color: white;
+	color: orange;
+	padding: 2px 10px;
+	font-size: 12px;
+	font-family: "calibri";
+	margin-top: 9px;
+}
+
+input[name="inscptBtn"]
+{
+	border: solid;
+	border-color: white;
+	background-color: transparent;
+	color: white;
+	padding: 2px 10px;
+	font-size: 12px;
+	font-family: "calibri";
+	margin-top: 9px;
+	position: absolute;
+	margin-left: 10px;
+}
+
+input[name="inscptBtn"]:hover
+{
+	border: solid;
+	background-color: white;
+	border-color: white;
+	color: orange;
+	padding: 2px 10px;
+	font-size: 12px;
+	font-family: "calibri";
+	margin-top: 9px;
+}
+
+input[name="btnInscription"]
+{
+	border: solid;
+	border-color: #f77934;
+	background-color: white;
+	color: #f77934;
+	padding: 2px 10px;
+	font-size: 16px;
+	font-family: "calibri";
+	margin-top: 9px;
+    
+}
+
+input[name="btnInscription"]:hover
+{
+	border: solid;
+	background-color: #f77934;
+	border-color: #f77934;
+	color: white;
+	padding: 2px 10px;
+	font-size: 16px;
+	font-family: "calibri";
+	margin-top: 9px;
+}
+
+@media screen and (max-width: 1024px)
+{
+    header{
+        width: 100%;
+        margin-top: 0;
+    }
+    #front{
+        width: 95%;
+    }
+}

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>I Want To Pogne</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="CSS/CSSRencontrer.css">
+    </head>
+
+<body>
+
+    <header> 
+
+        <h1 onclick="location.href='index.html';">I Want to Pogne</h1>
+        <h3>Rencontrer</h3>
+        <ul id="menu">
+            <li><a>Menu</a>
+                <ul>
+                    <li>
+                        <div id="login" method="post" onsubmit="return verifier(this);">
+                            <fieldset>
+                                <legend>Connexion</legend> 
+                                    <label for="inNom">Nom d'utilisateur: </label>
+                                    <input id="inNom" type="text" /><br></br>
+                                    <label for="inPswd">Mot de passe: </label><input id="inPswd" type="text" /></br>
+                                    <input name="loginBtn" type="button" value="Connexion"/>
+                            </fieldset>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="Inscription.html">Inscription</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+    </header>  
+
+    
+	<section id="front">
+        
+        <div id="casePersonne">
+            
+            <img src="image/pofnhl.jpg" id="profilPic">
+            <h3>Pierre-Olivier Fortin</h3>
+            <ul >
+                <li><h8>Âge: </h8> <br>
+                    <a id="textCase">18</a></li>
+                <li>
+                    <h8>Intérêts: </h8><br>
+                    <a id="textCase">Sports</a><br>
+                    <a id="textCase">Jeux vidéo</a><br>
+                    <a id="textCase">Lecture</a><br>
+                </li>
+                <li><h8>Description: </h8> <br>
+                    <div id="textCase">Joueur de la LNH évoluant pour les Canadiens de Montréal. Porte le #76, remplaçant ainsi Subban au titre d'assistant-capitaine.</div>
+                </li>
+            </ul>
+            
+            <img src="image/emptyHeart.jpg" id="likeBtn1" class="likeBtn" onmouseover="this.src='image/fullHeart.jpg'" onmouseout="mouseOut(1)" onclick="likeUnlike(1)">
+            <img src="image/X.jpg" id="deleteBtn" onmouseover="this.src='image/XHover.jpg'" onmouseout="this.src='image/X.jpg'" onclick="deleteProfile(1)">
+            
+        </div>        
+        <div id="casePersonne">
+            
+            <img src="image/pofnhl.jpg" id="profilPic"></img>
+            <h3>Pierre-Olivier Fortin</h3>
+            <ul >
+                <li><h8>Âge: </h8> <br>
+                    <a id="textCase">18</a></li>
+                <li>
+                    <h8>Intérêts: </h8><br>
+                    <a id="textCase">Sports</a><br>
+                    <a id="textCase">Jeux vidéo</a><br>
+                    <a id="textCase">Lecture</a><br>
+                </li>
+                <li><h8>Description: </h8> <br>
+                    <div id="textCase">Joueur de la LNH évoluant pour les Canadiens de Montréal. Porte le #76, remplaçant ainsi Subban au titre d'assistant-capitaine.</div>
+                </li>
+            </ul>
+            
+            <img src="image/emptyHeart.jpg" id="likeBtn2" class="likeBtn" onmouseover="this.src='image/fullHeartRed.jpg'" onmouseout="mouseOut(2)" onclick="likeUnlike(2)"></img>
+            <img src="image/X.jpg" id="deleteBtn" onmouseover="this.src='image/XHover.jpg'" onmouseout="this.src='image/X.jpg'" onclick="deleteProfile(2)"></img>
+            
+        </div>  
+            <div id="casePersonne">
+            
+            <img src="image/pofnhl.jpg" id="profilPic">
+            <h3>Pierre-Olivier Fortin</h3>
+            <ul >
+                <li><h8>Âge: </h8> <br>
+                    <a id="textCase">18</a></li>
+                <li>
+                    <h8>Intérêts: </h8><br>
+                    <a id="textCase">Sports</a><br>
+                    <a id="textCase">Jeux vidéo</a><br>
+                    <a id="textCase">Lecture</a><br>
+                </li>
+                <li><h8>Description: </h8> <br>
+                    <div id="textCase">Joueur de la LNH évoluant pour les Canadiens de Montréal. Porte le #76, remplaçant ainsi Subban au titre d'assistant-capitaine.</div>
+                </li>
+            </ul>
+            
+            <img src="image/emptyHeart.jpg" id="likeBtn3" class="likeBtn" onmouseover="this.src='image/fullHeart.jpg'" onmouseout="mouseOut(3)" onclick="likeUnlike(3)">
+            <img src="image/X.jpg" id="deleteBtn" onmouseover="this.src='image/XHover.jpg'" onmouseout="this.src='image/X.jpg'" onclick="deleteProfile(3)">
+            
+        </div>       
+        <div id="casePersonne">
+            
+            <img src="image/pofnhl.jpg" id="profilPic">
+            <h3>Pierre-Olivier Fortin</h3>
+            <ul >
+                <li><h8>Âge: </h8> <br>
+                    <a id="textCase">18</a></li>
+                <li>
+                    <h8>Intérêts: </h8><br>
+                    <a id="textCase">Sports</a><br>
+                    <a id="textCase">Jeux vidéo</a><br>
+                    <a id="textCase">Lecture</a><br>
+                </li>
+                <li><h8>Description: </h8> <br>
+                    <div id="textCase">Joueur de la LNH évoluant pour les Canadiens de Montréal. Porte le #76, remplaçant ainsi Subban au titre d'assistant-capitaine.</div>
+                </li>
+            </ul>
+            
+            <img src="image/emptyHeart.jpg" id="likeBtn4" class="likeBtn" onmouseover="this.src='image/fullHeart.jpg'" onmouseout="mouseOut(4)" onclick="likeUnlike(4)">
+            <img src="image/X.jpg" id="deleteBtn" onmouseover="this.src='image/XHover.jpg'" onmouseout="this.src='image/X.jpg'" onclick="deleteProfile(4)">
+            
+        </div>  
+        <div id="casePersonne">
+            
+            <img src="image/pofnhl.jpg" id="profilPic">
+            <h3>Pierre-Olivier Fortin</h3>
+            <ul >
+                <li><h8>Âge: </h8> <br>
+                    <a id="textCase">18</a></li>
+                <li>
+                    <h8>Intérêts: </h8><br>
+                    <a id="textCase">Sports</a><br>
+                    <a id="textCase">Jeux vidéo</a><br>
+                    <a id="textCase">Lecture</a><br>
+                </li>
+                <li><h8>Description: </h8> <br>
+                    <div id="textCase">Joueur de la LNH évoluant pour les Canadiens de Montréal. Porte le #76, remplaçant ainsi Subban au titre d'assistant-capitaine.</div>
+                </li>
+            </ul>
+            
+            <img src="image/emptyHeart.jpg" id="likeBtn5" class="likeBtn" onmouseover="this.src='image/fullHeart.jpg'" onmouseout="mouseOut(5)" onclick="likeUnlike(5)">
+            <img src="image/X.jpg" id="deleteBtn" onmouseover="this.src='image/XHover.jpg'" onmouseout="this.src='image/X.jpg'" onclick="deleteProfile(5)">
+            
+        </div> 
+        <div id="casePersonne">
+            
+            <img src="image/pofnhl.jpg" id="profilPic">
+            <h3>Pierre-Olivier Fortin</h3>
+            <ul >
+                <li><h8>Âge: </h8> <br>
+                    <a id="textCase">18</a></li>
+                <li>
+                    <h8>Intérêts: </h8><br>
+                    <a id="textCase">Sports</a><br>
+                    <a id="textCase">Jeux vidéo</a><br>
+                    <a id="textCase">Lecture</a><br>
+                </li>
+                <li><h8>Description: </h8> <br>
+                    <div id="textCase">Joueur de la LNH évoluant pour les Canadiens de Montréal. Porte le #76, remplaçant ainsi Subban au titre d'assistant-capitaine.</div>
+                </li>
+            </ul>
+            
+            <img src="image/emptyHeart.jpg" id="likeBtn6" class="likeBtn" onmouseover="this.src='image/fullHeart.jpg'" onmouseout="mouseOut(6)" onclick="likeUnlike(6)">
+            <img src="image/X.jpg" id="deleteBtn" onmouseover="this.src='image/XHover.jpg'" onmouseout="this.src='image/X.jpg'" onclick="deleteProfile(6)">
+            
+        </div>    
+        <div id="casePersonne">
+            
+            <img src="image/pofnhl.jpg" id="profilPic">
+            <h3>Pierre-Olivier Fortin</h3>
+            <ul >
+                <li><h8>Âge: </h8> <br>
+                    <a id="textCase">18</a></li>
+                <li>
+                    <h8>Intérêts: </h8><br>
+                    <a id="textCase">Sports</a><br>
+                    <a id="textCase">Jeux vidéo</a><br>
+                    <a id="textCase">Lecture</a><br>
+                </li>
+                <li><h8>Description: </h8> <br>
+                    <div id="textCase">Joueur de la LNH évoluant pour les Canadiens de Montréal. Porte le #76, remplaçant ainsi Subban au titre d'assistant-capitaine.</div>
+                </li>
+            </ul>
+            
+            <img src="image/emptyHeart.jpg" id="likeBtn7" class="likeBtn" onmouseover="this.src='image/fullHeart.jpg'" onmouseout="mouseOut(7)" onclick="likeUnlike(7)">
+            <img src="image/X.jpg" id="deleteBtn" onmouseover="this.src='image/XHover.jpg'" onmouseout="this.src='image/X.jpg'" onclick="deleteProfile(7)">
+            
+        </div>        
+	</section>
+
+
+<footer>
+</footer>
+
+</body>
+
+<script src="js/Rencontre.js"></script>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Inscription</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <link rel="stylesheet" type="text/css" href="CSS/CSSInscription.css">
+    </head>
+
+<body>
+    <header> 
+
+        <h1 onclick="location.href='index.html';">I Want to Pogne</h1>
+        <h3>Inscription</h3>
+        <ul id="menu">
+            <li><a>Menu</a>
+                <ul>
+                    <li>
+                        <div id="login" method="post" onsubmit="return verifier(this);">
+                            <fieldset>
+                                <legend>Connexion</legend> 
+                                    <label for="inNom">Nom d'utilisateur: </label>
+                                    <input id="inNom" type="text" /><br></br>
+                                    <label for="inPswd">Mot de passe: </label><input id="inPswd" type="text" /></br>
+                                    <input name="loginBtn" type="button" value="Connexion"/>
+                            </fieldset>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="index.html">Accueil</a>
+                    </li>
+                    <li>
+                        <a href="rencontrer.html">Rencontrer</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+        
+    </header>
+    
+	<nav>
+		
+	</nav>
+    
+
+    <form id="inscription" method="post" onsubmit="return verifier(this);" >
+	
+        <section id="front">
+        <fieldset id="fieldInsc">
+            <legend>Inscription</legend>
+            
+            <fieldset id="FSInfo">
+                <legend>Informations</legend>    
+                
+                <label for="_Prénom">Prénom:</label> <input id="_prénom" name="Prenom" type="text" autofocus placeholder="Pierre-Olivier"/><br></br>
+                <label for="_Nom">Nom:</label>  <input id="nom" name="Nom" type="text" placeholder="Bilodeau"/><br></br>
+                <label for="_Âge">Âge:</label>  <input id="_age" name="Âge" type="text" placeholder="18"/><br></br>
+                <label for="_DDN">Date de naissance:</label>  <input id="_ddn" name="DDN" type="date" max = "1999-03-11" required/><br></br>
+                <label for="_Adresse">Adresse:</label>  <input id="_adresse" name="Adresse" type="text" placeholder="3270 Route St-Léonard"/><br></br>
+                <label for="_Ville">Ville:</label>  <input id="_ville" name="Ville" type="text" placeholder="Shipshaw"/><br></br>
+                <label for="_Téléphone">Numéro de téléphone:</label>  <input id="_téléphone" name="Téléphone" type="tel" placeholder="581-235-7434"/><br></br>
+                <label for="_Email">Email:</label>  <input id="_email" name="Email" type="text" placeholder="abcd1234@exemple.com"/><br></br>
+                
+            
+            </fieldset>
+
+            <fieldset id="FSToi">
+                <legend>À propos de moi</legend>
+                
+                <label for="NU">Nom d'utilisateur: </label> <input id="NU" type="text"/><br></br>
+                <label for="MDP">Mot de passe: </label> <input id="MDP" type="password"/><br><br>
+                <label for="MDPconfirm">Confirmer mot de passe: </label> <input id="CMDP" type="password"/><br></br>
+                Je suis :<br>
+                <input id ="radH" name="sexe" type="radio">Homme</input><br>
+                <input id ="radF" name="sexe" type="radio">Femme</input><br>
+                <input id ="radA" name="sexe" type="radio">Autre</input><br>
+                <br></br>
+
+                Je recherche : <br>
+                <input id ="chkH" id="Homme" type="checkbox"/>Homme</input><br>
+                <input id ="chkF" type="checkbox"/>Femme</input><br>
+                <input id ="chkA" type="checkbox"/>Autre</input><br>
+                <br>
+
+                Description:<br>
+                <textarea id="_Desc" name="Desc" minlength="25 "maxlength="500" placeholder="25 caractères minimum" required></textarea>
+            </fieldset>
+
+                <fieldset id="FSInt">
+                    <legend>Intérêts</legend>
+                    
+                    <input id="chkSp" type="checkbox">Sports</input><br>
+                    <input id="chkL" type="checkbox">Lecture</input><br>
+                    <input id="chkSo" type="checkbox">Sorties</input><br>
+                    <input id="chkJV" type="checkbox">Jeux vidéo</input><br>
+                    <input id="chkB" type="checkbox">Manger</input><br>
+                    <input id="chkFilm" type="checkbox">Film</input><br>
+                    <input id="chkD" type="checkbox">Dormir</input><br>
+         
+                </fieldset>
+
+        <input name="btnEnvoyer" type="submit" value="Soumettre"/>
+
+        </fieldset>
+
+	</section>
+
+<script src="js/Inscription.js"></script>
+
+<footer>
+    <p>
+    </p>
+</footer>
+</form>
+</body>
+</html>
